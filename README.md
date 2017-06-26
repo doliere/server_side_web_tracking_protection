@@ -32,11 +32,7 @@ Third party tracking has become a great concern. Except for ethical decision not
 
 # Implementation, Evaluation
 
-We have implemented the Rewrite Server and the Middle Party Server as Node.js web servers.
-<p align="center">
-  <img src="images/nodejs.png?raw=true" alt="Node.js" width="25%"/>
-</p>
-
+We have implemented the Rewrite Server and the Middle Party Server as [Node.js](https://nodejs.org) web servers.
 We then deployed the solution on our demo web application embedding various third party contents. We have been able to successfully rewrite and redirect third party content to the Middle Party deployed at https://sstp-middleparty.inria.fr in order to remove any tracking. 
 
 The following picture shows that all third party content are effectively being fetched through the Middle Party Server
@@ -45,16 +41,8 @@ The following picture shows that all third party content are effectively being f
 </p>
 
 # Case Study
-Finally, we evaluated the solution on the following websites. To do so, we have put all the logic of the Rewrite Server in a browser proxy where we rewrite web pages. As such, we have been able to evaluate the solution for some HTTP websites, preserving their intended functionalities and removing tracking from third party content that they embed.
-<p align="center">
-  <img src="images/bbc.png?raw=true" alt="BBC" style="background-color:gray"/>
-</p>
-<p align="center">
-  <img src="images/imdb.png?raw=true" alt="IMDB"/>
-</p>
-<p align="center">
-  <img src="images/vertbaudet.png?raw=true" alt="BBC"/>
-</p>
+Finally, we evaluated the solution on the following websites. To do so, we have put all the logic of the Rewrite Server in a browser proxy where we rewrite web pages. As such, we have been able to evaluate the solution for some HTTP websites, preserving their intended functionalities and removing tracking from third party content that they embed. The sites we have considered are:
+[BBC.com](http://www.bbc.com), [IMDB](http://www.imdb.com) and [Vertbaudet](http://www.vertbaudet.fr)
 
 # Contact
 [Dolière Francis Somé](http://www-sop.inria.fr/members/Doliere.Some/) <br>
