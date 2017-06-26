@@ -14,7 +14,7 @@ The Rewrite Server is composed with different components which implementation de
 </p>
 
 Deploying the Rewrite Server consists of editing the [config.json](config.json) before starting the server by running [deploy.sh](deploy.sh)
-{
+```json {
   "originalServerHost": "www.example.com",
   "originalServerNewPort": 8080,
   "rewriteServerHttpPort":80,
@@ -24,6 +24,6 @@ Deploying the Rewrite Server consists of editing the [config.json](config.json) 
   "dynamicContentRewriter": "dynamic.js",
   "middleServerURL": "https://www.middle.com"
 
-}
+}```
 
 We assume that you have [Node.js](https://nodejs.org) installed. If this is the case, the [npm](https://www.npmjs.com) package manager should also be installed. [deploy.sh](deploy.sh) will invoke npm to install the packages [request](https://www.npmjs.com/package/request), [jsdom](https://www.npmjs.com/package/jsdom), [css](https://www.npmjs.com/package/css) and [websocket](https://www.npmjs.com/package/websocket) required by the Rewrite Server to work correctly. Finally it will deploy the server.
