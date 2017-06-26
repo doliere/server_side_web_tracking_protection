@@ -16,7 +16,7 @@ We present a new web application architecture that allows web developers to gain
 
 To prevent this, our solution is based on the automatic rewriting of the web application in such a way that the third party requests are redirected to a trusted third party server, called the Middle Party Server. It may be either controlled by a trusted party, or by a main site owner and automatically eliminates third-party tracking cookies and other technologies that may be exchanged by the browser and third party server
 
-![Tracking Prevention Web Application Architecture](/images/tarchitecture-2.png?raw=true "Tracking Prevention Web Application Architecture")
+![Tracking Prevention Web Application Architecture](/images/narchitecture-2.png?raw=true "Tracking Prevention Web Application Architecture")
 
 The Rewrite Server is another important component of this new architecture. It takes care of automatically rewritting all the web pages, so that all third party content that they are embed, will be fetched through the Middle Party Server. Therefore, the web developer does not need to modify his original application. He just deploys the Rewrite Server which will perform the necessary modifications for him. Take a look at how to deploy this solution for your own application.
 
