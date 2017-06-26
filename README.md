@@ -44,6 +44,10 @@ The following picture shows that all third party content are effectively being f
 Finally, we evaluated the solution on the following websites. To do so, we have put all the logic of the Rewrite Server in a browser proxy where we rewrite web pages. As such, we have been able to evaluate the solution for some HTTP websites, preserving their intended functionalities and removing tracking from third party content that they embed. The sites we have considered are:
 [BBC.com](http://www.bbc.com), [IMDB](http://www.imdb.com) and [Vertbaudet](http://www.vertbaudet.fr)
 
+# Deployment
+Instructions for deploying the Rewrite Server are detailed in [RewriteServer.md](RewriteServer.md).
+Similarly, [MiddlePartyServer.md](MiddlePartyServer.md) explains how to deploy the Middle Party Server.
+
 # Contact
 [Dolière Francis Somé](http://www-sop.inria.fr/members/Doliere.Some/) <br>
 [Nataliia Bielova](http://www-sop.inria.fr/members/Nataliia.Bielova/) <br>
