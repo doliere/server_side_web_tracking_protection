@@ -3,6 +3,7 @@
 # Introduction
 This project deals with the problem of third party web tracking. Indeed, the web infrastructure allows a web application developer to reuse third party content in his own application by directly referencing them in an application. Though third party content provides tremendous benefit to application developers by allowing them to quickly build fully functional applications, it is also known that third party content poses serious security and privacy threats to users of such web applications. 
 
+<div style="text-align:center"><img src ="images/tracking.png" alt="Trhid Party Web Tracking"/></div>
 
 
 ![Third Party Web Tracking](/images/tracking.png?raw=true "Third Party Web Tracking")
@@ -41,8 +42,8 @@ Finally, we evaluated the solution on the following websites. To do so, we have 
 ![Vertbaduet](/images/vertbaudet.png?raw=true "Vertbaudet")
 
 # Contact
-[Dolière Francis Somé](http://www-sop.inria.fr/members/Doliere.Some/)
-[Nataliia Bielova](http://www-sop.inria.fr/members/Nataliia.Bielova/)
+[Dolière Francis Somé](http://www-sop.inria.fr/members/Doliere.Some/) <br>
+[Nataliia Bielova](http://www-sop.inria.fr/members/Nataliia.Bielova/) <br>
 [Tamara Rezk](http://www-sop.inria.fr/lemme/Tamara.Rezk/)
 
 
