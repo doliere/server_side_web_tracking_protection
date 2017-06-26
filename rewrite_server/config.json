@@ -1,0 +1,11 @@
+{
+	"originalServerHost": "www.example.com",
+	"originalServerNewPort": 8080,
+	"rewriteServerHttpPort":80,
+	"https_key": "./certificate/certificate.key",
+	"https_cert": "./certificate/certificate.crt",
+	"rewriteServerHttpsPort": 443,
+	"dynamicContentRewriter": "dynamic.js",
+	"middleServerURL": "https://www.middle.com"
+
+}

@@ -1,0 +1,7 @@
+{
+	"middleServerURL": "https://www.middle.com",
+	"https_key": "./certificate/certificate.key",
+	"https_cert": "./certificate/certificate.crt",
+	"https_port": 443,
+	"http_port": 80
+}
