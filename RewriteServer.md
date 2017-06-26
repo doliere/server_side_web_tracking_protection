@@ -5,7 +5,7 @@
 </p>
 
 # Rewrite Server
-The implemntation of the Rewrite Server is located under [rewrite_server](rewrite_server) folder.
+The implemntation of the Rewrite Server is located under [rewrite_server](src/rewrite_server) folder.
 
 The Rewrite Server is composed with different components which implementation details are discussed below. The following picture shows those components and their interactions and integration with the original web application server
 
