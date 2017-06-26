@@ -26,7 +26,7 @@ The Rewrite Server is another important component of this new architecture. It t
 
 # Motivation
 <p align="right">
-  <img src="images/eprivacy.png?raw=true" alt="ePrivacy: from directive to regulation"/>
+  <img src="images/eprivacy.png?raw=true" alt="ePrivacy: from directive to regulation" width="40%"/>
 </p>
 Third party tracking has become a great concern. Except for ethical decision not to track users, from May 2018 the website owners will have a legal obligation as well. The ePrivacy directive (also know as ‘cookie law’) will be updated to the regulation, and will make website owners liable for third party tracking that takes place in their websites. This regulation will be applied to all the services that are delivered to the natural persons located in the European Union. This regulation will apply high penalties for any violation. Hence, privacy compliance will be of high interest to all website owners and developers, and today there is no automatic tool that can help to control third party tracking.To keep a promise of non-tracking, the only solution today is to exclude any third-party content, thus trading functionality for privacy.
 
@@ -46,9 +46,15 @@ The following picture shows that all third party content are effectively being f
 
 # Case Study
 Finally, we evaluated the solution on the following websites. To do so, we have put all the logic of the Rewrite Server in a browser proxy where we rewrite web pages. As such, we have been able to evaluate the solution for some HTTP websites, preserving their intended functionalities and removing tracking from third party content that they embed.
-![BBC ](/images/bbc.png?raw=true "BBC")
-![IMDB](/images/imdb.png?raw=true "IMDB")
-![Vertbaduet](/images/vertbaudet.png?raw=true "Vertbaudet")
+<p align="center">
+  <img src="images/bbc.png?raw=true" alt="BBC" style="background-color:gray"/>
+</p>
+<p align="center">
+  <img src="images/imdb.png?raw=true" alt="IMDB"/>
+</p>
+<p align="center">
+  <img src="images/vertbaudet.png?raw=true" alt="BBC"/>
+</p>
 
 # Contact
 [Dolière Francis Somé](http://www-sop.inria.fr/members/Doliere.Some/) <br>
