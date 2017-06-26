@@ -6,7 +6,7 @@
 </p>
 
 # Middle Party Server
-The implemntation of the Rewrite Server is located under [middle_party_server](middle_party_server) folder.
+The implemntation of the Rewrite Server is located under [middle_party_server](src/middle_party_server) folder.
 
 The following picture shows the different components that form the Middle Party Server. Each of them is detailed in the following paragraphs.
 
