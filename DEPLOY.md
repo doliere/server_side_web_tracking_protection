@@ -41,7 +41,7 @@ npm install -g websocket
 node rewriteserver.js
 ```
 You can execute those commands separately or install them all in one command by executing
-```
+``` shell
 sh deploy.sh
 ```
 If you have reached this step, it means that you have a Rewrite Server running correctly.
