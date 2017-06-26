@@ -14,7 +14,8 @@ The Rewrite Server is composed with different components which implementation de
 </p>
 
 Deploying the Rewrite Server consists of editing the [config.json](config.json) before starting the server by running [deploy.sh](deploy.sh)
-```json {
+```json 
+{
   "originalServerHost": "www.example.com",
   "originalServerNewPort": 8080,
   "rewriteServerHttpPort":80,
